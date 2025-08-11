@@ -1,9 +1,14 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface BlogLandscapeItem {
-  img?: string;
-  title: string;
-  date?: string;
+    id: number;
+    title: string;
+    date?: string;
+    content?: {
+      intro: string;
+      sections: { title: string; text: string }[];
+    };
+    img?: string;
 }
 
 interface BlogLandscapeModalState {
