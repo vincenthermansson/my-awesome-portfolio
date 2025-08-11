@@ -1,9 +1,10 @@
 "use client";
 import { brandData4 } from "@/data/Data";
 import React from "react";
-import Slider from "react-slick";
+import SlickSlider from "react-slick";
 import { motion } from "framer-motion";
 
+const Slider = SlickSlider as unknown as React.FC<any>;
 type Props = {
   style: string;
 };
