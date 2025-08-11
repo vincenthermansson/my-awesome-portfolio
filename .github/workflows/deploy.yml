@@ -28,10 +28,17 @@ jobs:
 
     - name: Deploy to main branch root
       run: |
-        rm -rf !(out)  # remove everything except the output folder
-        shopt -s dotglob nullglob
-        mv out/* ./
-        rm -rf out
+        # Move build output to a temp folder
+        mv out ../out-temp
+
+        # Remove everything in the repo
+        rm -rf ./* .[^.]*
+
+        # Move built site back to root
+        mv ../out-temp/* ./
+        rm -rf ../out-temp
+
+        # Commit and push
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add .
