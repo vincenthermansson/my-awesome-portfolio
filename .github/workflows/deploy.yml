@@ -1,4 +1,4 @@
-name: Deploy Next.js to GitHub Pages (User Site)
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -8,39 +8,24 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
-      with:
-        persist-credentials: false  # important for avoiding permission errors
+      - uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Build
-      run: npm run build
+      - name: Build and Export
+        run: npm run build && npm run export
 
-    - name: Deploy to main branch root
-      run: |
-        # Move build output to a temp folder
-        mv out ../out-temp
-
-        # Remove everything in the repo
-        rm -rf ./* .[^.]*
-
-        # Move built site back to root
-        mv ../out-temp/* ./
-        rm -rf ../out-temp
-
-        # Commit and push
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add .
-        git commit -m "Deploy site" || echo "No changes to commit"
-        git push origin main
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          publish_branch: gh-pages
+          cname: vincenthermansson.github.io
