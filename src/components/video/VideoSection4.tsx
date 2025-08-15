@@ -37,16 +37,16 @@ const VideoSection4 = () => {
               <div className="pc-video-content-list title-anim">
                 <ul>
                   <li>
-                    <i className="fa-solid fa-check-to-slot"></i> Developed scalable web apps handling 50K+ daily transactions
+                    <i className="fa-solid fa-check-to-slot"></i> Developed scalable web applications for high-volume, mission-critical environments
                   </li>
                   <li>
-                    <i className="fa-solid fa-check-to-slot"></i> Expertise in React, Node.js, Django, and cloud platforms like AWS and GCP
+                    <i className="fa-solid fa-check-to-slot"></i> Expertise in React, Node.js, Django, and cloud platforms including AWS and GCP
                   </li>
                   <li>
-                    <i className="fa-solid fa-check-to-slot"></i> Reduced infrastructure costs by up to 15% through optimized cloud solutions
+                    <i className="fa-solid fa-check-to-slot"></i> Optimized cloud solutions to significantly reduce infrastructure costs
                   </li>
                   <li>
-                    <i className="fa-solid fa-check-to-slot"></i> Proven track record in mentoring and leading developer teams for faster onboarding
+                    <i className="fa-solid fa-check-to-slot"></i> Experienced in mentoring and leading developer teams to accelerate onboarding and productivity
                   </li>
                 </ul>
               </div>

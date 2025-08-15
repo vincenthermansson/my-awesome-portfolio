@@ -88,7 +88,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                         <i className="fa-brands fa-discord"></i>
                       </a>
                     </li>
-                    <li>
+                    { /*<li>
                       <a
                         href="https://t.me/yourtelegramhandle"
                         title="Telegram"
@@ -107,7 +107,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                       >
                         <i className="fa-brands fa-whatsapp"></i>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

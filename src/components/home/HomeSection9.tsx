@@ -43,14 +43,17 @@ const HomeSection9 = () => {
 
                   <div className="text-anim">
                     <CustomGsapTextSplitLine className="banner-description">
-                      Hi, I’m Vincent Hermansson. I’ve spent over 7 years
-                      building high-performance web apps, creating cloud-native
-                      solutions that handle 50K+ daily transactions, cut
-                      infrastructure costs, and deliver real business impact.
+                      I’m Vincent Hermansson, a Full Stack Developer with over 8
+                      years of experience crafting scalable, user-friendly web
+                      applications using modern technologies.
                     </CustomGsapTextSplitLine>
                   </div>
                   <div className="banner-btn">
-                    <a href="./Vincent_Hermansson_CV.pdf" className="def-btn def-btn-4 btn-hover" download={true}>
+                    <a
+                      href="./Vincent_Hermansson_Resume.pdf"
+                      className="def-btn def-btn-4 btn-hover"
+                      download={true}
+                    >
                       <span className="dot"></span>{" "}
                       <span className="txt">Download CV</span>{" "}
                       <i className="fa-solid fa-download"></i>

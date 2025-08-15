@@ -747,36 +747,38 @@ const serviceData4 = [
     title: "Web Development",
   },
 ];
-const counterData = [  
-  {  
-    id: 1,  
-    imgSrc: "img/review-1.png",  
-    lightImg: "img/review-5.png",  
-    value: 42,   // Number of complex web applications delivered
-    title: "APPLICATIONS BUILT",  
-  },  
-  {  
-    id: 2,  
-    imgSrc: "img/completed-task.png",  
-    lightImg: "img/review-8.png",  
-    value: 6000000,
-    title: "API REQUESTS DAILY",  
-  },  
-  {  
-    id: 3,  
-    imgSrc: "img/review-3.png",  
-    lightImg: "img/review-7.png",  
-    value: 40,   // Percentage increase in test coverage / QA improvements
-    title: "QA BUG REDUCTION (%)",  
-  },  
-  {  
-    id: 4,  
-    imgSrc: "img/review-2.png",  
-    lightImg: "img/review-6.png",  
-    value: 3,    // Number of Agile teams collaborated with
-    title: "AGILE TEAMS COLLABORATED",  
-  },  
+
+const counterData = [
+  {
+    id: 1,
+    imgSrc: "img/review-1.png",
+    lightImg: "img/review-5.png",
+    value: 42,
+    title: "Web Applications Delivered",
+  },
+  {
+    id: 2,
+    imgSrc: "img/completed-task.png",
+    lightImg: "img/review-8.png",
+    value: 5,
+    title: "Major Projects Led",
+  },
+  {
+    id: 3,
+    imgSrc: "img/review-3.png",
+    lightImg: "img/review-7.png",
+    value: 8,
+    title: "Years of Development Experience",
+  },
+  {
+    id: 4,
+    imgSrc: "img/review-2.png",
+    lightImg: "img/review-6.png",
+    value: 2,
+    title: "Countries Worked In",
+  },
 ];
+
 
 const portfolioData2 = [
   {

@@ -88,12 +88,12 @@ const RightSidebarSection = ({ logo }: Props) => {
               <a href="https://discord.com/users/1402853924460826675" target="_blank" rel="noopener noreferrer" title="Discord">
                 <i className="fa-brands fa-discord"></i>
               </a>
-              <a href="https://t.me/yourtelegramhandle" target="_blank" rel="noopener noreferrer" title="Telegram">
+              {/*<a href="https://t.me/yourtelegramhandle" target="_blank" rel="noopener noreferrer" title="Telegram">
                 <i className="fa-brands fa-telegram"></i>
               </a>
               <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" title="WhatsApp">
                 <i className="fa-brands fa-whatsapp"></i>
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>
