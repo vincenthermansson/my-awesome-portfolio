@@ -19,7 +19,7 @@ import VideoModal from "@/components/modal/VideoModal";
 import BlogModalLandscape from "@/components/modal/BlogModalLandscape";
 
 export const metadata: Metadata = {
-  title: "Vincent Hermansson - Personal Portfolio",
+  title: "Portfolio - Vincent Hermansson",
   description: "Developed by Vincent Hermansson",
 };
 const page = () => {
