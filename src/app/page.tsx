@@ -38,12 +38,12 @@ const page = () => {
       />
       <PortfolioSection4 />
       <TestimonialSlider style="main-clr4" />
-      <ContactSection3
+      {/* <ContactSection3
         style="homepage-9-contact-section pc-contact-area pt-120"
         headingStyle=""
         img="img/contact_img.png"
         btnStyle="def-btn def-btn-4 btn-hover"
-      />
+      /> */}
       <NewsSection style="main-clr4" />
       <BrandSlider2 style="homepage-9-brand-seciton" />
       <FooterSection5

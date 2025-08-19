@@ -47,7 +47,7 @@ const RightSidebarSection = ({ logo }: Props) => {
           <div className="pc-sidebar-about mb-30">
             <h4 className="pc-sidebar-about-title">About Me</h4>
               <p className="pc-sidebar-short-desc">
-                I'm a professional Full Stack Developer with over 7 years of experience building scalable and efficient web applications. I have successfully delivered projects in finance, healthcare, and e-commerce sectors, driving measurable business impact and reducing infrastructure costs. Passionate about clean code, mentoring, and innovative cloud solutions.
+                I'm a professional Full Stack Developer with over 8 years of experience building scalable and efficient web applications. I have successfully delivered projects in finance, healthcare, and e-commerce sectors, driving measurable business impact and reducing infrastructure costs. Passionate about clean code, mentoring, and innovative cloud solutions.
               </p>
             <div className="sidebar-photography-imgs mt-20">
               {sidebarData.map((item) => (
@@ -66,9 +66,9 @@ const RightSidebarSection = ({ logo }: Props) => {
             <span className="pc-sidebar-contact-meta">
               <i className="fa-solid fa-location-dot"></i> 2242 W 19th St, Chicago, IL 60608
             </span>
-            <a href="tel:+13125552847" className="pc-sidebar-contact-meta">
+{/* {            <a href="tel:+13125552847" className="pc-sidebar-contact-meta">
               <i className="fa-solid fa-phone-flip"></i> +1 (312) 555-2847
-            </a>
+            </a>} */}
             <a
               href="mailto:hermansson.vin@gmail.com"
               className="pc-sidebar-contact-meta"
@@ -79,13 +79,13 @@ const RightSidebarSection = ({ logo }: Props) => {
               <a href="https://github.com/vincenthermansson" target="_blank" rel="noopener noreferrer" title="GitHub">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/vincenth26/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              {/* {<a href="https://linkedin.com/in/vincenth26/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                 <i className="fa-brands fa-linkedin-in"></i>
-              </a>
+              </a>} */}
               <a href="mailto:hermansson.vin@gmail.com" title="Email">
                 <i className="fa-solid fa-envelope"></i>
               </a>
-              <a href="https://discord.com/users/1402853924460826675" target="_blank" rel="noopener noreferrer" title="Discord">
+              <a href="https://discord.com/users/380066165831237645" target="_blank" rel="noopener noreferrer" title="Discord">
                 <i className="fa-brands fa-discord"></i>
               </a>
               {/*<a href="https://t.me/yourtelegramhandle" target="_blank" rel="noopener noreferrer" title="Telegram">

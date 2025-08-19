@@ -40,14 +40,14 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                   <div className="logo">
                     <img src={logo} alt="LOGO" />
                   </div>
-                  <p className="contact-number">
+{/* {                  <p className="contact-number">
                     <a
                       href="tel:+13125552847"
                       style={{ color: "inherit", textDecoration: "none" }}
                     >
                       +1 (312) 555-2847
                     </a>
-                  </p>
+                  </p>} */}
                   <p>2242 W 19th St, Chicago, IL 60608</p>
                   <p>
                     <a
@@ -58,7 +58,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                     </a>
                   </p>
                   <ul className="social-network social-circle">
-                    <li>
+                    {/* {<li>
                       <a
                         href="https://linkedin.com/in/vincenth26/"
                         title="LinkedIn"
@@ -67,7 +67,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </a>
-                    </li>
+                    </li>} */}
                     <li>
                       <a
                         href="https://github.com/vincenthermansson"
@@ -80,7 +80,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                     </li>
                     <li>
                       <a
-                        href="https://discord.com/users/1402853924460826675"
+                        href="https://discord.com/users/380066165831237645"
                         title="Discord"
                         target="_blank"
                         rel="noreferrer"
