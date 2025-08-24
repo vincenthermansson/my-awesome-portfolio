@@ -40,25 +40,25 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                   <div className="logo">
                     <img src={logo} alt="LOGO" />
                   </div>
-{/* {                  <p className="contact-number">
+                  <p className="contact-number">
                     <a
-                      href="tel:+13125552847"
+                      href="tel:+14809233339"
                       style={{ color: "inherit", textDecoration: "none" }}
                     >
-                      +1 (312) 555-2847
+                      +1 (480) 923-3339
                     </a>
-                  </p>} */}
-                  <p>2242 W 19th St, Chicago, IL 60608</p>
+                  </p>
+                  <p>1849 W Merrill Ln, Gilbert, AZ 85233-1737</p>
                   <p>
                     <a
-                      href="mailto:hermansson.vin@gmail.com"
+                      href="mailto:nicolias.burton@outlook.com"
                       style={{ color: "inherit", textDecoration: "none" }}
                     >
-                      hermansson.vin@gmail.com
+                      nicolias.burton@outlook.com
                     </a>
                   </p>
                   <ul className="social-network social-circle">
-                    {/* {<li>
+                    {/* <li>
                       <a
                         href="https://linkedin.com/in/vincenth26/"
                         title="LinkedIn"
@@ -67,8 +67,8 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                       >
                         <i className="fa-brands fa-linkedin-in"></i>
                       </a>
-                    </li>} */}
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         href="https://github.com/vincenthermansson"
                         title="GitHub"
@@ -87,7 +87,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                       >
                         <i className="fa-brands fa-discord"></i>
                       </a>
-                    </li>
+                    </li> */}
                     { /*<li>
                       <a
                         href="https://t.me/yourtelegramhandle"
@@ -394,7 +394,7 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                   viewport={{ once: true }}
                 >
                   <p className="copy">
-                    Copyright <strong>Vincent</strong>{" "}
+                    Copyright <strong>Nicholas</strong>{" "}
                     {new Date().getFullYear()} All Right Reserved
                   </p>
                 </motion.div>

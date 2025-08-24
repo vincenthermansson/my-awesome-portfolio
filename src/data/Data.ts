@@ -760,22 +760,22 @@ const counterData = [
     id: 2,
     imgSrc: "img/completed-task.png",
     lightImg: "img/review-8.png",
-    value: 5,
+    value: 8,
     title: "Major Projects Led",
   },
   {
     id: 3,
     imgSrc: "img/review-3.png",
     lightImg: "img/review-7.png",
-    value: 8,
+    value: 12,
     title: "Years of Development Experience",
   },
   {
     id: 4,
     imgSrc: "img/review-2.png",
     lightImg: "img/review-6.png",
-    value: 2,
-    title: "Countries Worked In",
+    value: 5,
+    title: "Companies worked in",
   },
 ];
 
@@ -1195,21 +1195,21 @@ const testimonialData6 = [
     img: "img/testimonial-image-1.png",
     author: "Emily Parker",
     designation: "Senior Web Designer",
-    text: "Vincent’s expertise in frontend development helped us launch a sleek, user-friendly website that significantly boosted our client engagement. His attention to detail and proactive communication made collaboration effortless."
+    text: "Nicholas' expertise in frontend development helped us launch a sleek, user-friendly website that significantly boosted our client engagement. His attention to detail and proactive communication made collaboration effortless."
   },
   {
     id: 2,
     img: "img/testimonial-image-2.png",
     author: "Jennifer Smith",
     designation: "Creative Director",
-    text: "Working with Vincent was a game-changer for our product design team. He seamlessly integrated complex backend logic with intuitive UI, delivering scalable solutions on time and with outstanding quality."
+    text: "Working with Nicholas was a game-changer for our product design team. He seamlessly integrated complex backend logic with intuitive UI, delivering scalable solutions on time and with outstanding quality."
   },
   {
     id: 3,
     img: "img/testimonial-image-3.png",
     author: "David William",
     designation: "Front-end Developer",
-    text: "Vincent is a talented developer who combines deep technical skills with great teamwork. His contributions to our React projects improved app performance and code maintainability, accelerating delivery timelines."
+    text: "Nick is a talented developer who combines deep technical skills with great teamwork. His contributions to our React projects improved app performance and code maintainability, accelerating delivery timelines."
   },
 ];
 

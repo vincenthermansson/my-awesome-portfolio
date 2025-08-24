@@ -48,7 +48,7 @@ const AboutSection7 = () => {
 
               <h4 className="pc-about4-title text-white mb-25"> 
                 <CustomGsapTextSplit> 
-                  I've been building scalable web applications since 2018
+                  I've been building scalable web applications since 2013
                 </CustomGsapTextSplit> 
               </h4> 
 

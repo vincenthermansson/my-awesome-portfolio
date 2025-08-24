@@ -58,7 +58,7 @@ const HeaderSection2 = () => {
                 >
                   <ul>
                     <li>
-                      <i className="fa-light fa-envelope"></i> example@gmail.com
+                      <i className="fa-light fa-envelope"></i> example@outlook.com
                     </li>
                     <li>
                       <i className="fa-light fa-clock"></i> Sunday-Thurs

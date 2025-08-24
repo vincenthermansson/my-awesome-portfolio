@@ -19,8 +19,8 @@ import VideoModal from "@/components/modal/VideoModal";
 import BlogModalLandscape from "@/components/modal/BlogModalLandscape";
 
 export const metadata: Metadata = {
-  title: "Portfolio - Vincent Hermansson",
-  description: "Developed by Vincent Hermansson",
+  title: "Portfolio - Nicholas Burton",
+  description: "Developed by Nicholas Burton",
 };
 const page = () => {
   return (

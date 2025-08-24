@@ -29,7 +29,7 @@ const BlogModalText = ({ currentBlogItem }: Props) => {
         <h4 className="blog-title-text">{currentBlogItem.title}</h4>
         <div className="rightside-text">
           <p>
-            <i className="fa-light fa-user"></i> Author: Vincent Hermansson
+            <i className="fa-light fa-user"></i> Author: Nicholas Burton
           </p>
           <p>
             <i className="fa-light fa-clock"></i>{" "}

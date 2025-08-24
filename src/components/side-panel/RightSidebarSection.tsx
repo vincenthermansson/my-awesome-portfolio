@@ -47,7 +47,7 @@ const RightSidebarSection = ({ logo }: Props) => {
           <div className="pc-sidebar-about mb-30">
             <h4 className="pc-sidebar-about-title">About Me</h4>
               <p className="pc-sidebar-short-desc">
-                I'm a professional Full Stack Developer with over 8 years of experience building scalable and efficient web applications. I have successfully delivered projects in finance, healthcare, and e-commerce sectors, driving measurable business impact and reducing infrastructure costs. Passionate about clean code, mentoring, and innovative cloud solutions.
+                I'm a professional Full Stack Developer with over 12 years of experience building scalable and efficient web applications. I have successfully delivered projects in finance, healthcare, and e-commerce sectors, driving measurable business impact and reducing infrastructure costs. Passionate about clean code, mentoring, and innovative cloud solutions.
               </p>
             <div className="sidebar-photography-imgs mt-20">
               {sidebarData.map((item) => (
@@ -64,37 +64,37 @@ const RightSidebarSection = ({ logo }: Props) => {
           <div className="pc-sidebar-contact">
             <h4 className="pc-sidebar-contact-title mb-15">Get In Touch Me</h4>
             <span className="pc-sidebar-contact-meta">
-              <i className="fa-solid fa-location-dot"></i> 2242 W 19th St, Chicago, IL 60608
+              <i className="fa-solid fa-location-dot"></i>  1849 W Merrill Ln, Gilbert, AZ 85233-1737
             </span>
-{/* {            <a href="tel:+13125552847" className="pc-sidebar-contact-meta">
-              <i className="fa-solid fa-phone-flip"></i> +1 (312) 555-2847
-            </a>} */}
+            <a href="tel:+14809233339" className="pc-sidebar-contact-meta">
+              <i className="fa-solid fa-phone-flip"></i> +1 (480) 923-3339
+            </a>
             <a
-              href="mailto:hermansson.vin@gmail.com"
+              href="mailto:nicolias.burton@outlook.com"
               className="pc-sidebar-contact-meta"
             >
-              <i className="fa-solid fa-envelope"></i> hermansson.vin@gmail.com
+              <i className="fa-solid fa-envelope"></i> nicolias.burton@outlook.com
             </a>
-            <div className="pc-sidebar-social mt-20">
+            {/* <div className="pc-sidebar-social mt-20">
               <a href="https://github.com/vincenthermansson" target="_blank" rel="noopener noreferrer" title="GitHub">
                 <i className="fa-brands fa-github"></i>
               </a>
-              {/* {<a href="https://linkedin.com/in/vincenth26/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <a href="https://linkedin.com/in/vincenth26/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                 <i className="fa-brands fa-linkedin-in"></i>
-              </a>} */}
-              <a href="mailto:hermansson.vin@gmail.com" title="Email">
+              </a>
+              <a href="mailto:nicolias.burton@outlook.com" title="Email">
                 <i className="fa-solid fa-envelope"></i>
               </a>
               <a href="https://discord.com/users/380066165831237645" target="_blank" rel="noopener noreferrer" title="Discord">
                 <i className="fa-brands fa-discord"></i>
               </a>
-              {/*<a href="https://t.me/yourtelegramhandle" target="_blank" rel="noopener noreferrer" title="Telegram">
+              <a href="https://t.me/yourtelegramhandle" target="_blank" rel="noopener noreferrer" title="Telegram">
                 <i className="fa-brands fa-telegram"></i>
               </a>
               <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" title="WhatsApp">
                 <i className="fa-brands fa-whatsapp"></i>
-              </a>*/}
-            </div>
+              </a>
+            </div> */}
           </div>
         </div>
       </div>

@@ -43,14 +43,14 @@ const HomeSection9 = () => {
 
                   <div className="text-anim">
                     <CustomGsapTextSplitLine className="banner-description">
-                      I’m Vincent Hermansson, a Full Stack Developer with over 8
+                      I’m Nicholas Burton, a Full Stack Developer with over 12
                       years of experience crafting scalable, user-friendly web
                       applications using modern technologies.
                     </CustomGsapTextSplitLine>
                   </div>
                   <div className="banner-btn">
                     <a
-                      href="./Vincent_Hermansson_Resume.pdf"
+                      href="./Nicholas_Burton.pdf"
                       className="def-btn def-btn-4 btn-hover"
                       download={true}
                     >

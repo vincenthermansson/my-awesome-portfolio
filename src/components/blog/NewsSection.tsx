@@ -22,7 +22,7 @@ const NewsSection = ({ style }: Props) => {
               <CustomGsapTextSplit>Latest blogs</CustomGsapTextSplit>
             </h5>
             <h2>
-              <CustomGsapTextSplit>Vincent Hermansson's Blogs</CustomGsapTextSplit>
+              <CustomGsapTextSplit>Nicholas Burton's Blogs</CustomGsapTextSplit>
             </h2>
           </div>
         </div>
