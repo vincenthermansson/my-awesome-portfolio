@@ -70,10 +70,10 @@ const RightSidebarSection = ({ logo }: Props) => {
               <i className="fa-solid fa-phone-flip"></i> +1 (480) 923-3339
             </a>
             <a
-              href="mailto:nicolias.burton@outlook.com"
+              href="mailto:nicolas.burtn@outlook.com"
               className="pc-sidebar-contact-meta"
             >
-              <i className="fa-solid fa-envelope"></i> nicolias.burton@outlook.com
+              <i className="fa-solid fa-envelope"></i> nicolas.burtn@outlook.com
             </a>
             {/* <div className="pc-sidebar-social mt-20">
               <a href="https://github.com/vincenthermansson" target="_blank" rel="noopener noreferrer" title="GitHub">
@@ -82,7 +82,7 @@ const RightSidebarSection = ({ logo }: Props) => {
               <a href="https://linkedin.com/in/vincenth26/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="mailto:nicolias.burton@outlook.com" title="Email">
+              <a href="mailto:nicolas.burtn@outlook.com" title="Email">
                 <i className="fa-solid fa-envelope"></i>
               </a>
               <a href="https://discord.com/users/380066165831237645" target="_blank" rel="noopener noreferrer" title="Discord">

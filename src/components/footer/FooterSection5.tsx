@@ -51,10 +51,10 @@ const FooterSection5 = ({ style, logo, shapeStyle }: Props) => {
                   <p>1849 W Merrill Ln, Gilbert, AZ 85233-1737</p>
                   <p>
                     <a
-                      href="mailto:nicolias.burton@outlook.com"
+                      href="mailto:nicolas.burtn@outlook.com"
                       style={{ color: "inherit", textDecoration: "none" }}
                     >
-                      nicolias.burton@outlook.com
+                      nicolas.burtn@outlook.com
                     </a>
                   </p>
                   <ul className="social-network social-circle">
